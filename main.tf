@@ -7,5 +7,5 @@ module "catalogue" {
   INSTANCE_TYPE = var.INSTANCE_TYPE
   KEYPAIR_NAME = var.KEYPAIR_NAME
   component = var.component
-  lb_priority = 200
+  lb_priority = var.lb_priority
 }
