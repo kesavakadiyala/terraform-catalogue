@@ -6,6 +6,6 @@ module "catalogue" {
   availability-zones = var.availability-zones
   INSTANCE_TYPE = var.INSTANCE_TYPE
   KEYPAIR_NAME = var.KEYPAIR_NAME
-  component = catalogue
+  component = var.component
   lb_priority = 200
 }
